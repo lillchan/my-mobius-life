@@ -1,0 +1,18 @@
+doctype 5
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/lib/bootstrap/bootstrap.css')
+    link(rel='stylesheet', href='/css/style.css')
+  body
+
+    .container
+
+      .navbar
+        .navbar-inner
+          a.brand(href='#') My Mobius Life
+
+      block content
+
+    script(src='/lib/jquery/jquery.js')
+    script(src='/lib/bootstrap/bootstrap.js')
